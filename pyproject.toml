@@ -5,6 +5,18 @@ build-backend = "hatchling.build"
 [project]
 name = "haxmas_day_9_ryan_mai"
 version = "0.0.1"
+authors = [
+    {name = "Ryan Mai", email = "ryanmai757@gmail.com"},
+]
+description = "TUI Advent Calendar App for Haxmas Day 9"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
 dependencies = [
     "textual",
 ]
