@@ -19,7 +19,8 @@ classifiers = [
 ]
 dependencies = [
     "textual",
-    "google-generativeai",
+    "google-genai",
+    "dotenv",
 ]
 
 [project.scripts]

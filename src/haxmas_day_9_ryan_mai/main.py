@@ -5,7 +5,6 @@ from textual.screen import Screen
 from datetime import date, timedelta
 from google import genai
 from google.genai import types
-from elevenlabs.client import ElevenLabs
 from dotenv import load_dotenv
 import os
 
